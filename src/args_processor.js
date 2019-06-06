@@ -37,5 +37,4 @@ switches.forEach(s => {
 	}
 });
 
-let globals = require('./g.js');
-let g = new globals(testing, logger, embedder);
+require('./g.js').beginSetUp(testing, logger, embedder);

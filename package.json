@@ -1,0 +1,16 @@
+{
+  "name": "discord-bot-framework",
+  "author": [
+    "Gear"
+  ],
+  "description": "A Discord bot framework",
+  "version": "1.1.0",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "repository": "https://github.com/the-og-gear/discord-bot-framework",
+  "issues": "https://github.com/the-og-gear/discord-bot-framework/issues",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
